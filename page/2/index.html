@@ -1,0 +1,463 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Stephen Liu - 网络日志</title><meta name="author" content="Stephen Liu"><meta name="copyright" content="Stephen Liu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="满纸荒唐中窥见满脸沧桑 &#x2F; 触到神经就要懂得鼓掌">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Stephen Liu">
+<meta property="og:url" content="https://sqlsafe.github.io/page/2/index.html">
+<meta property="og:site_name" content="Stephen Liu">
+<meta property="og:description" content="满纸荒唐中窥见满脸沧桑 &#x2F; 触到神经就要懂得鼓掌">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://sqlsafe.github.io/static/imgs/avatar.jpg">
+<meta property="article:author" content="Stephen Liu">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://sqlsafe.github.io/static/imgs/avatar.jpg"><link rel="shortcut icon" href="/static/imgs/avatar.jpg"><link rel="canonical" href="https://sqlsafe.github.io/page/2/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="VSFkQX9oEfez8Wg33b3PjxGSjGuzNLloJwioEGrBczg"/><meta name="baidu-site-verification" content="code-lGctq1oJty"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: '',
+  enable_page_level_ads: 'true'
+});</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-Q0H3CJ8WR6"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-Q0H3CJ8WR6');
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: true
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: Stephen Liu","link":"链接: ","source":"来源: Stephen Liu","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Stephen Liu',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-04-26 23:58:12'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="Stephen Liu" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/static/imgs/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">21</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">44</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/message/"><i class="fa-fw fas fa-video"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/static/imgs/index_img.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Stephen Liu</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/message/"><i class="fa-fw fas fa-video"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Stephen Liu</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/sqlsafe" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:sqlsafe@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="rss"><i class="fas fa-rss"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2022/04/26/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95-NB%E4%B8%89%E4%BA%BA%E7%BB%84/" title="排序算法-NB三人组"><img class="post_bg" src="/static/imgs/algorithm/heap.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="排序算法-NB三人组"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/26/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95-NB%E4%B8%89%E4%BA%BA%E7%BB%84/" title="排序算法-NB三人组">排序算法-NB三人组</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-26T13:52:56.000Z" title="发表于 2022-04-26 21:52:56">2022-04-26</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Python/">Python</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E7%AE%97%E6%B3%95/">算法</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/">快速排序</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E5%A0%86%E6%8E%92%E5%BA%8F/">堆排序</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E5%AF%B9%E5%B9%B6%E6%8E%92%E5%BA%8F/">对并排序</a></span></div><div class="content">快速排序(Quicksort) 时间复杂度：o(N*logN)快速排序，又称划分交换排序（partition-exchange sort），简称快排，一种排序算法，最早由东尼·霍尔提出。在平均状况下，排序n个项目要O(n log2 n)次比较。在最坏状况下则需要 O(n^2)次比较，但这种状况并不常见。事实上，快速排序 (n log n)通常明显比其他算法更快，因为它的内部循环（inner loop）可以在大部分的架构上很有效率地达成。
+
+快速排序思路：
+取一个元素p(第一个元素)，使元素p归位
+列表被p分成两部分，左边都比p小，右边都比p大
+递归完成排序
+
+1234567891011121314151617def partition(li, left, right):    tmp = li[left]    while left &lt; right:        while left &lt; right and li[right] &gt;= tmp:    #从右边开始找比tmp小的数            right -= 1  #向左走一步        li[left ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/04/26/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95-LowB%E4%B8%89%E4%BA%BA%E7%BB%84/" title="排序算法-LowB三人组"><img class="post_bg" src="/static/imgs/algorithm/insertion_sort.gif" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="排序算法-LowB三人组"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/26/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95-LowB%E4%B8%89%E4%BA%BA%E7%BB%84/" title="排序算法-LowB三人组">排序算法-LowB三人组</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-26T13:46:24.000Z" title="发表于 2022-04-26 21:46:24">2022-04-26</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Python/">Python</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E7%AE%97%E6%B3%95/">算法</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/">冒泡排序</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/">插入排序</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/">选择排序</a></span></div><div class="content">排序排序也称排序算法(Sort Algorithm)，排序是将一组数据，依指定的顺序进行排列的过程。
+冒泡排序（Bubble Sort) 时间复杂度：o(n^2)比较相邻的元素。如果第一个比第二个大，就交换他们的位置。
+
+123456789def bubble_sort(li):    for i in range(len(li) - 1):    #第i躺        exchange = False        for j in range(len(li) - i -1):            if li[j] &gt; li[j+1]:                li[j],li[j+1] = li[j+1],li[j]   #交换位置                exchange = True        if not exchange:            return
+
+选择排序（Selection sort）时间复杂度：O(n^2)首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/04/26/%E5%B8%B8%E7%94%A8%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/" title="常用查找算法"><img class="post_bg" src="/static/imgs/algorithm/binary_search.gif" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="常用查找算法"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/26/%E5%B8%B8%E7%94%A8%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/" title="常用查找算法">常用查找算法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-26T13:33:21.000Z" title="发表于 2022-04-26 21:33:21">2022-04-26</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Python/">Python</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E7%AE%97%E6%B3%95/">算法</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E9%A1%BA%E5%BA%8F%E6%9F%A5%E6%89%BE/">顺序查找</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E6%B3%95/">二分查找法</a></span></div><div class="content">常用查找算法顺序查找(Linear Search)  时间复杂度：o(n)顺序查找也叫线性查找，从列表第一个元素开始，顺序进行搜索，知道找到元素或搜索到列表最后一个元素为止。
+
+123456def linear_search(li,val):    for i,v in enumerate(li):        if v == val:            return i    else:         return None
+
+二分查找法（binary_search） 时间复杂度：O（log2n）在一个已知有序队列中找出与给定关键字相同的数的具体位置。原理是分别定义三个指针low、high、mid分别指向待查元素所在范围的下界和上界以及区间的中间位置，即mid＝（low＋high）&#x2F;2，让关键字与mid所指的数比较，若等则查找成功并返回mid，若关键字小于mid所指的数则high&#x3D;mid-1，否则low&#x3D;mid+1，然后继续循环直到找出或找不到为止。
+
+12345678910111213def binary_search(li,val):     ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/04/26/%E9%80%92%E5%BD%92/" title="递归"><img class="post_bg" src="/static/imgs/algorithm/recursion.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="递归"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/26/%E9%80%92%E5%BD%92/" title="递归">递归</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-26T13:24:50.000Z" title="发表于 2022-04-26 21:24:50">2022-04-26</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Python/">Python</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E7%AE%97%E6%B3%95/">算法</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E9%80%92%E5%BD%92/">递归</a></span></div><div class="content">递归程序调用自身的编程技巧称为递归（ recursion）。递归作为一种算法在程序设计语言中广泛应用。 一个过程或函数在其定义或说明中有直接或间接调用自身的一种方法，它通常把一个大型复杂的问题层层转化为一个与原问题相似的规模较小的问题来求解，递归策略只需少量的程序就可描述出解题过程所需要的多次重复计算，大大地减少了程序的代码量。递归的能力在于用有限的语句来定义对象的无限集合。一般来说，递归需要有边界条件、递归前进段和递归返回段。当边界条件不满足时，递归前进；当边界条件满足时，递归返回。
+
+123456def recursion(i):    if i &gt; 0:        print(i)        recursion(i-1)recursion(3)# 输出结果：1、2、3
+
+
+12345def recursion2(i):    if i &gt; 0:        recursion2(i-1)        print(i)# 输出结果：3、2、1
+
+汉诺塔法国数学家爱德华·卢卡斯曾编写过一个印度的古老传说：在世界中心贝拿勒斯（在印度北部）的圣庙里，一块黄铜板上插 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95%E7%AE%80%E4%BB%8B/" title="数据结构&amp;算法简介"><img class="post_bg" src="/static/imgs/algorithm/img.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="数据结构&amp;算法简介"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95%E7%AE%80%E4%BB%8B/" title="数据结构&amp;算法简介">数据结构&amp;算法简介</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-26T13:13:53.000Z" title="发表于 2022-04-26 21:13:53">2022-04-26</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Python/">Python</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E7%AE%97%E6%B3%95/">算法</a></span></div><div class="content">算法算法是一组完成任务的指令。
+
+
+时间复杂度（Time complexity)
+在计算机科学中，算法的时间复杂度是一个函数，它定性描述该算法的运行时间。
+
+空间复杂度(Space Complexity)
+在计算机科学中，一个算法或程序的空间复杂度定性地描述该算法或程序运行所需要的存储空间大小。
+
+
+常用算法
+检索：检索就是在数据结构里查找满足一定条件的节点。一般是给定一个某字段的值，找具有该字段值的节点。
+插入：往数据结构中增加新的节点。
+删除：把指定的结点从数据结构中去掉。
+更新：改变指定节点的一个或多个字段的值。
+排序：把节点按某种指定的顺序重新排列。例如递增或递减。
+
+数据结构数据结构是指相互之间存在着一种或多种关系的数据元素的集合和该集合中数据元素之间的关系组成。
+简单的来说，数据结构就是设计数据以任何一种方式组织并存储在计算机中。比如：列表、集合与字典等都是一种数据结构。
+N.Wirth：”程序&#x3D;数据结构+算法”
+数据结构的分类数据结构按照其逻辑结构可分为线性结构、树结构、图结构
+
+线性结构：数据结构中的元素存在一对一的互相关系
+树结构：数据结构的元素存在一对多的 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/04/25/%E8%A1%8C%E4%B8%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F/" title="行为型模式"><img class="post_bg" src="/static/imgs/design_patterns/chain-of-responsibility.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="行为型模式"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/25/%E8%A1%8C%E4%B8%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F/" title="行为型模式">行为型模式</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-25T14:26:48.000Z" title="发表于 2022-04-25 22:26:48">2022-04-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Python/">Python</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E8%A1%8C%E4%B8%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F/">行为型模式</a></span></div><div class="content">行为型模式行为模式负责对象间的高效沟通和职责委派。
+责任链模式亦称： 职责链模式、命令链、CoR、Chain of Command、Chain of Responsibility
+
+给技术支持打电话时你可能得应对多名接听人员  
+
+
+内容：使多个对象都有机会处理请求，从而避免请求的发送者和接收者之间的耦合关系。将这些对象连成一条链，并沿着这条链传递该请求，知道有一个对象处理它为止。
+角色：
+抽象处理者（Handler）
+具体处理者（Concrete Handler）
+客户端（Client）
+
+
+适用场景：
+有多个对象可以处理一个请求，哪个对象处理由运行是决定
+在不明确接收者的情况下，向多个对象中的一个提交一个请求
+
+
+优点：
+降低耦合度：一个对象无需知道是其他哪一个对象处理其请求
+
+
+
+​	责任链模式结构
+
+123456789101112131415161718192021222324252627282930313233343536373839from abc import ABCMeta,abstractmethod# 抽象处理者class Handler(metaclass=ABC ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/04/24/%E7%BB%93%E6%9E%84%E5%9E%8B%E6%A8%A1%E5%BC%8F/" title="结构型模式"><img class="post_bg" src="/static/imgs/design_patterns/adapter2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="结构型模式"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/24/%E7%BB%93%E6%9E%84%E5%9E%8B%E6%A8%A1%E5%BC%8F/" title="结构型模式">结构型模式</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-24T14:31:41.000Z" title="发表于 2022-04-24 22:31:41">2022-04-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Python/">Python</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E7%BB%93%E6%9E%84%E5%9E%8B%E6%A8%A1%E5%BC%8F/">结构型模式</a></span></div><div class="content">结构型模式（Structural Patterns）结构型模式介绍如何将对象和类组装成较大的结构， 并同时保持结构的灵活和高效。
+适配器模式亦称： 封装器模式、Wrapper、Adapter
+
+
+内容：将一个类的接口转换成客户希望的另一个接口。适配器模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
+两种实现方式：
+类适配器：使用多继承
+对象适配器：使用组合
+
+
+角色：
+目标接口（Target）
+待适配的类（Adaptee）
+适配器（Adapter）
+
+
+适用场景：
+想使用一个已经存在的类，而它的接口不符合你的要求。
+（对象适配器）想使用一些已经存在的子类，但不可能对每一个都进行子类化以匹配它们的接口。对象适配器可以适配它的父类接口。
+
+
+
+适配器模式结构
+
+类适配器
+12345678910111213141516171819202122232425262728# 目标接口class Payment:    def pay(self, money):        raise NotImplementedErrorclass AliPay(Payment):    def  ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/04/21/%E5%88%9B%E5%BB%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F/" title="创建型模式"><img class="post_bg" src="/static/imgs/design_patterns/Abstract_Factory.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="创建型模式"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/21/%E5%88%9B%E5%BB%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F/" title="创建型模式">创建型模式</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-21T15:12:51.000Z" title="发表于 2022-04-21 23:12:51">2022-04-21</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Python/">Python</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E5%88%9B%E5%BB%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F/">创建型模式</a></span></div><div class="content">创建型模式（Creational Design Patterns）创建型模式提供创建对象的机制，增加已有代码的灵活性和可复用性。
+简单工厂模式
+内容：结构不直接向客户端暴露对象创建的实现细节，而是通过一个工厂类负责创建产品类的实列。
+
+角色：
+
+工厂角色（Creator）
+
+抽象产品角色（Product）
+
+具体产品角色（Concrete Product）
+
+
+
+优点
+
+隐藏了对象创建的实现细节
+客户端不需要修改代码
+
+
+缺点
+
+违反了单一职责原则，将创建逻辑集中到一个工厂类里面
+当添加新产品时，需要修改工厂类代码，违反了开闭原则
+
+
+
+1234567891011121314151617181920212223242526272829303132333435from abc import ABCMeta,abstractmethod# 抽象产品角色class Payment(metaclass=ABCMeta):    @abstractmethod    def pay(self,money):        pass    # 具体产品角色class Alipay(Payment) ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/04/21/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" title="设计模式"><img class="post_bg" src="/static/imgs/design_patterns/design_patterns.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="设计模式"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/21/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" title="设计模式">设计模式</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-21T13:11:30.000Z" title="发表于 2022-04-21 21:11:30">2022-04-21</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Python/">Python</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a></span></div><div class="content">设计模式(Design Patterns)
+设计模式：对软件设计中普遍存在（反复出现）的各种问题，所提出的解决方案。每一个设计模式系统的命名、解释和评价了面向对象系统中一个重要的和重复出现的设计。
+
+”四人帮“（Gan of Four, GoF）：
+
+Erich Gamma,Richard Helm,Ralph Johnson,John Vlissides
+
+
+《设计模式：可复用面向对象软件的基础》
+
+
+面向对象(Object Oriented Programming)面向对象的三大特性
+封装：在Class内部，可以有属性和方法，二外部代码可以通过直接调用实列变量的方法来操作数据，隐藏内部的复杂逻辑。
+继承：在OOP程序设计中，定义一个class的时候，可以从某个现有的class继承，新的class称为子类，而被继承的class称为父类、基类。
+多态：当子类和父类存在相同的方法时，子类的方法覆盖父类的方法，在代码运行时，总是会调用子类的方法。
+
+接口(Interface)接口：若干抽象方法的集合。
+
+作用：限制实现接口的类必须按照接口给定的调用方法实现，这些方法；对高层模块隐藏了类的内 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/04/18/Python%E6%96%87%E4%BB%B6/" title="Python文件操作"><img class="post_bg" src="/static/imgs/python/python_file_operation.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Python文件操作"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/18/Python%E6%96%87%E4%BB%B6/" title="Python文件操作">Python文件操作</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-18T13:05:52.000Z" title="发表于 2022-04-18 21:05:52">2022-04-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Python/">Python</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Python/">Python</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/">文件操作</a></span></div><div class="content">
+读写文件是最常见IO操作。Python内置了读写文件的函数。
+在磁盘上读写文件的功能都是由操作系统提供的接口，操作系统是不允许普通的程序直接操作磁盘，所以读写文件就是请求操作系统打开一个文件对象，然后通过系统提供的接口从这个文件对像中读写操作。
+文件操作流程
+1、获取操作系统文件对象
+
+2、读写操作
+
+3、关闭操作系统文件对象
+
+
+1234f = open(&#x27;a.txt&#x27;, &#x27;rt&#x27;, encoding=&#x27;utf-8&#x27;)res = f.read()print(res)f.close()
+
+
+
+open函数open()是python内置函数，它会返回一个操作系统文件对象，这个对象提供了 read()、write()、close()等方法
+1f = open(&#x27;文件路径&#x27;,&#x27;文件模式&#x27;,encoding=&#x27;utf-8&#x27;) # 打开操作系统文件对象
+
+
+
+mode模式
+t（默认）：文本模式，只能针对文本文件，读写都是str为单位的，必须指定encoding参数
+
+rt ： ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/#content-inner">3</a><a class="extend next" rel="next" href="/page/3/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/static/imgs/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Stephen Liu</div><div class="author-info__description">满纸荒唐中窥见满脸沧桑 / 触到神经就要懂得鼓掌</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">21</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">44</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div></div><a id="card-info-btn"><i class="fa-regular fa-bookmark"></i><span>加入书签</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/sqlsafe" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:sqlsafe@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="rss"><i class="fas fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎提问</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/04/26/%E7%AE%97%E6%B3%95%E8%BF%9B%E9%98%B6-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92-DP/" title="算法进阶--动态规划(DP)"><img src="/static/imgs/algorithm/cut_rod-6.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="算法进阶--动态规划(DP)"/></a><div class="content"><a class="title" href="/2022/04/26/%E7%AE%97%E6%B3%95%E8%BF%9B%E9%98%B6-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92-DP/" title="算法进阶--动态规划(DP)">算法进阶--动态规划(DP)</a><time datetime="2022-04-26T15:09:38.000Z" title="发表于 2022-04-26 23:09:38">2022-04-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/04/26/%E7%AE%97%E6%B3%95%E8%BF%9B%E9%98%B6-%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/" title="算法进阶--贪心算法"><img src="/static/imgs/algorithm/greedy_algorithm.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="算法进阶--贪心算法"/></a><div class="content"><a class="title" href="/2022/04/26/%E7%AE%97%E6%B3%95%E8%BF%9B%E9%98%B6-%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/" title="算法进阶--贪心算法">算法进阶--贪心算法</a><time datetime="2022-04-26T15:09:14.000Z" title="发表于 2022-04-26 23:09:14">2022-04-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%A0%91-Tree/" title="数据结构-树(Tree)"><img src="/static/imgs/algorithm/tree.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="数据结构-树(Tree)"/></a><div class="content"><a class="title" href="/2022/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%A0%91-Tree/" title="数据结构-树(Tree)">数据结构-树(Tree)</a><time datetime="2022-04-26T14:56:17.000Z" title="发表于 2022-04-26 22:56:17">2022-04-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%93%88%E5%B8%8C%E8%A1%A8-HashTable/" title="数据结构-哈希表(HashTable)"><img src="/static/imgs/algorithm/hash_table.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="数据结构-哈希表(HashTable)"/></a><div class="content"><a class="title" href="/2022/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%93%88%E5%B8%8C%E8%A1%A8-HashTable/" title="数据结构-哈希表(HashTable)">数据结构-哈希表(HashTable)</a><time datetime="2022-04-26T14:50:22.000Z" title="发表于 2022-04-26 22:50:22">2022-04-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E9%93%BE%E8%A1%A8-linked-list/" title="数据结构-链表(linked_list)"><img src="/static/imgs/algorithm/link_list_index_imgs.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="数据结构-链表(linked_list)"/></a><div class="content"><a class="title" href="/2022/04/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E9%93%BE%E8%A1%A8-linked-list/" title="数据结构-链表(linked_list)">数据结构-链表(linked_list)</a><time datetime="2022-04-26T14:45:34.000Z" title="发表于 2022-04-26 22:45:34">2022-04-26</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Docs%E6%96%87%E6%A1%A3/"><span class="card-category-list-name">Docs文档</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Python/"><span class="card-category-list-name">Python</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"><span class="card-category-list-name">数据结构</span><span class="card-category-list-count">14</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"><span class="card-category-list-name">设计模式</span><span class="card-category-list-count">4</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Hexo/" style="font-size: 1.15em; color: rgb(38, 189, 196)">Hexo</a><a href="/tags/Html/" style="font-size: 1.15em; color: rgb(144, 129, 196)">Html</a><a href="/tags/Github-Pages/" style="font-size: 1.15em; color: rgb(190, 29, 49)">Github Pages</a><a href="/tags/Python/" style="font-size: 1.45em; color: rgb(39, 65, 166)">Python</a><a href="/tags/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/" style="font-size: 1.15em; color: rgb(32, 35, 129)">文件操作</a><a href="/tags/markdown/" style="font-size: 1.15em; color: rgb(86, 32, 106)">markdown</a><a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" style="font-size: 1.33em; color: rgb(11, 71, 188)">设计模式</a><a href="/tags/%E5%88%9B%E5%BB%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F/" style="font-size: 1.15em; color: rgb(118, 59, 55)">创建型模式</a><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 1.39em; color: rgb(190, 198, 24)">数据结构</a><a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 1.39em; color: rgb(104, 184, 47)">算法</a><a href="/tags/%E9%A1%BA%E5%BA%8F%E6%9F%A5%E6%89%BE/" style="font-size: 1.15em; color: rgb(75, 122, 65)">顺序查找</a><a href="/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E6%B3%95/" style="font-size: 1.15em; color: rgb(93, 57, 46)">二分查找法</a><a href="/tags/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/" style="font-size: 1.15em; color: rgb(12, 12, 195)">冒泡排序</a><a href="/tags/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/" style="font-size: 1.15em; color: rgb(124, 158, 95)">插入排序</a><a href="/tags/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/" style="font-size: 1.15em; color: rgb(29, 114, 140)">选择排序</a><a href="/tags/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/" style="font-size: 1.15em; color: rgb(173, 25, 5)">快速排序</a><a href="/tags/%E5%A0%86%E6%8E%92%E5%BA%8F/" style="font-size: 1.15em; color: rgb(166, 102, 61)">堆排序</a><a href="/tags/%E5%AF%B9%E5%B9%B6%E6%8E%92%E5%BA%8F/" style="font-size: 1.15em; color: rgb(51, 127, 118)">对并排序</a><a href="/tags/%E9%93%BE%E8%A1%A8/" style="font-size: 1.27em; color: rgb(97, 55, 1)">链表</a><a href="/tags/Hash-Table/" style="font-size: 1.15em; color: rgb(151, 170, 0)">Hash Table</a><a href="/tags/%E6%95%A3%E5%88%97%E8%A1%A8/" style="font-size: 1.15em; color: rgb(100, 93, 126)">散列表</a><a href="/tags/%E6%A0%88/" style="font-size: 1.15em; color: rgb(33, 121, 13)">栈</a><a href="/tags/Stack/" style="font-size: 1.21em; color: rgb(194, 136, 32)">Stack</a><a href="/tags/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F/" style="font-size: 1.15em; color: rgb(45, 45, 76)">希尔排序</a><a href="/tags/%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F/" style="font-size: 1.15em; color: rgb(172, 67, 188)">计数排序</a><a href="/tags/%E5%9F%BA%E6%95%B0%E6%8E%92%E5%BA%8F/" style="font-size: 1.15em; color: rgb(188, 43, 57)">基数排序</a><a href="/tags/%E6%A1%B6%E6%8E%92%E5%BA%8F/" style="font-size: 1.15em; color: rgb(127, 22, 117)">桶排序</a><a href="/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" style="font-size: 1.15em; color: rgb(73, 58, 135)">二叉树</a><a href="/tags/Tree/" style="font-size: 1.15em; color: rgb(37, 4, 39)">Tree</a><a href="/tags/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/" style="font-size: 1.15em; color: rgb(54, 87, 191)">二叉搜索树</a><a href="/tags/AVL%E6%A0%91/" style="font-size: 1.15em; color: rgb(188, 23, 186)">AVL树</a><a href="/tags/Queue/" style="font-size: 1.21em; color: rgb(195, 25, 132)">Queue</a><a href="/tags/%E8%BF%B7%E5%AE%AB%E9%97%AE%E9%A2%98/" style="font-size: 1.15em; color: rgb(127, 120, 19)">迷宫问题</a><a href="/tags/%E7%8E%AF%E5%BD%A2%E9%98%9F%E5%88%97/" style="font-size: 1.15em; color: rgb(30, 126, 2)">环形队列</a><a href="/tags/%E5%8F%8C%E5%90%91%E9%98%9F%E5%88%97/" style="font-size: 1.15em; color: rgb(111, 154, 17)">双向队列</a><a href="/tags/deque/" style="font-size: 1.15em; color: rgb(136, 180, 189)">deque</a><a href="/tags/%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8/" style="font-size: 1.15em; color: rgb(54, 44, 183)">双向链表</a><a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" style="font-size: 1.15em; color: rgb(193, 140, 182)">动态规划</a><a href="/tags/Dynamic-Programming/" style="font-size: 1.15em; color: rgb(84, 13, 184)">Dynamic Programming</a><a href="/tags/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/" style="font-size: 1.15em; color: rgb(85, 40, 192)">斐波那契数列</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/04/"><span class="card-archive-list-date">四月 2022</span><span class="card-archive-list-count">21</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">21</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2019-12-31T16:00:00.000Z"></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">19.8k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-04-26T15:58:12.347Z"></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/static/imgs/index_img.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Stephen Liu</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="chat_btn" type="button" title="聊天"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>function subtitleType () {
+  if (true) { 
+    window.typed = new Typed("#subtitle", {
+      strings: ["满纸荒唐中窥见满脸沧桑 / 触到神经就要懂得鼓掌。","Seeing the vicissitudes of life in the paper full of absurdity/You must know how to applaud."],
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50
+    })
+  } else {
+    document.getElementById("subtitle").innerHTML = '满纸荒唐中窥见满脸沧桑 / 触到神经就要懂得鼓掌。'
+  }
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}</script></div><script src="//lib.baomitu.com/jquery/3.5.1/jquery.min.js"></script><script src="https://myhkw.cn/api/player/165069534691" id="myhk" key="165069534691" m="1"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js" data-mobile="false" data-text="富强,民主,文明,和谐,自由,平等,公正,法治,爱国,敬业,诚信" data-fontsize="15px" data-random="false" async="async"></script><script>window.$crisp = [];
+window.CRISP_WEBSITE_ID = "a20673ad-5704-40be-b987-2afedd337138";
+(function () {
+  d = document;
+  s = d.createElement("script");
+  s.src = "https://client.crisp.chat/l.js";
+  s.async = 1;
+  d.getElementsByTagName("head")[0].appendChild(s);
+})();
+$crisp.push(["safe", true])
+
+if (true) {
+  $crisp.push(["do", "chat:hide"])
+  $crisp.push(["on", "chat:closed", function() {
+    $crisp.push(["do", "chat:hide"])
+  }])
+  var chatBtnFn = () => {
+    var chatBtn = document.getElementById("chat_btn")
+    chatBtn.addEventListener("click", function(){
+      $crisp.push(["do", "chat:show"])
+      $crisp.push(["do", "chat:open"])
+
+    });
+  }
+  chatBtnFn()
+} else {
+  if (false) {
+    function chatBtnHide () {
+      $crisp.push(["do", "chat:hide"])
+    }
+    function chatBtnShow () {
+      $crisp.push(["do", "chat:show"])
+    }
+  }
+}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: true,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', 'G-Q0H3CJ8WR6', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
