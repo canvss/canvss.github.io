@@ -230,13 +230,13 @@
             
             <tag> crawler </tag>
             
+            <tag> 反爬 </tag>
+            
             <tag> robots.txt </tag>
             
             <tag> cookie </tag>
             
             <tag> Urllib </tag>
-            
-            <tag> 反爬 </tag>
             
         </tags>
       
@@ -267,11 +267,11 @@
             
             <tag> crawler </tag>
             
+            <tag> 反爬 </tag>
+            
             <tag> robots.txt </tag>
             
             <tag> cookie </tag>
-            
-            <tag> 反爬 </tag>
             
             <tag> referer </tag>
             
