@@ -20,9 +20,9 @@
       
         <tags>
             
-            <tag> rest </tag>
-            
             <tag> Web </tag>
+            
+            <tag> rest </tag>
             
             <tag> API </tag>
             
@@ -230,13 +230,13 @@
             
             <tag> crawler </tag>
             
+            <tag> 反爬 </tag>
+            
             <tag> robots.txt </tag>
             
             <tag> cookie </tag>
             
             <tag> Urllib </tag>
-            
-            <tag> 反爬 </tag>
             
         </tags>
       
@@ -267,11 +267,11 @@
             
             <tag> crawler </tag>
             
+            <tag> 反爬 </tag>
+            
             <tag> robots.txt </tag>
             
             <tag> cookie </tag>
-            
-            <tag> 反爬 </tag>
             
             <tag> referer </tag>
             
@@ -625,11 +625,11 @@
             
             <tag> 算法 </tag>
             
-            <tag> Queue </tag>
-            
             <tag> 环形队列 </tag>
             
             <tag> 双向队列 </tag>
+            
+            <tag> Queue </tag>
             
             <tag> deque </tag>
             
