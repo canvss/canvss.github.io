@@ -36,9 +36,9 @@
     <category term="Python Web" scheme="https://sqlsafe.github.io/categories/Python-Web/"/>
     
     
-    <category term="rest" scheme="https://sqlsafe.github.io/tags/rest/"/>
-    
     <category term="Web" scheme="https://sqlsafe.github.io/tags/Web/"/>
+    
+    <category term="rest" scheme="https://sqlsafe.github.io/tags/rest/"/>
     
     <category term="API" scheme="https://sqlsafe.github.io/tags/API/"/>
     
@@ -244,13 +244,13 @@
     
     <category term="crawler" scheme="https://sqlsafe.github.io/tags/crawler/"/>
     
+    <category term="反爬" scheme="https://sqlsafe.github.io/tags/%E5%8F%8D%E7%88%AC/"/>
+    
     <category term="robots.txt" scheme="https://sqlsafe.github.io/tags/robots-txt/"/>
     
     <category term="cookie" scheme="https://sqlsafe.github.io/tags/cookie/"/>
     
     <category term="Urllib" scheme="https://sqlsafe.github.io/tags/Urllib/"/>
-    
-    <category term="反爬" scheme="https://sqlsafe.github.io/tags/%E5%8F%8D%E7%88%AC/"/>
     
   </entry>
   
@@ -280,11 +280,11 @@
     
     <category term="crawler" scheme="https://sqlsafe.github.io/tags/crawler/"/>
     
+    <category term="反爬" scheme="https://sqlsafe.github.io/tags/%E5%8F%8D%E7%88%AC/"/>
+    
     <category term="robots.txt" scheme="https://sqlsafe.github.io/tags/robots-txt/"/>
     
     <category term="cookie" scheme="https://sqlsafe.github.io/tags/cookie/"/>
-    
-    <category term="反爬" scheme="https://sqlsafe.github.io/tags/%E5%8F%8D%E7%88%AC/"/>
     
     <category term="referer" scheme="https://sqlsafe.github.io/tags/referer/"/>
     
